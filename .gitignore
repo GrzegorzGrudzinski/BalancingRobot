@@ -5,6 +5,8 @@ Release/
 .settings/
 .mxproject
 
+browse.vc*
+
 *.bin
 *.elf
 *.hex

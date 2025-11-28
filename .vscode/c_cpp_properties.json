@@ -1,0 +1,71 @@
+{
+    "configurations": [
+        // Linux config
+        {
+            "name": "Linux",
+            "includePath":
+            [
+                "${workspaceRoot}/code",
+                "${workspaceRoot}/code/Core/Inc",
+                "${workspaceRoot}/code/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceRoot}/code/Drivers/CMSIS/Include",
+                "${workspaceRoot}/code/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceRoot}/code/USB_HOST/App",
+                "${workspaceRoot}/code/USB_HOST/Target",
+                "/lib/gcc/arm-none-eabi/15.2.0/include",
+                "/lib/gcc/arm-none-eabi/15.2.0/include-fixed",
+                "/usr/arm-none-eabi/include",
+                "/usr/arm-none-eabi/include/c++/15.2.0",
+                "/usr/arm-none-eabi/include/machine",
+                "/usr/arm-none-eabi/include/newlib-nano",
+                "/usr/arm-none-eabi/include/sys"
+            ],
+            "defines":
+            [
+                "USE_HAL_DRIVER",
+                "STM32F411xE"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "browse":
+            {
+                "path":
+                [
+                    "${workspaceRoot}/code",
+                    "${workspaceRoot}/code/Core/Inc",
+                    "${workspaceRoot}/code/Drivers/STM32F4xx_HAL_Driver/Inc",
+                    "${workspaceRoot}/code/Drivers/CMSIS/Include",
+                    "${workspaceRoot}/code/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                    "/usr/arm-none-eabi/include",
+                    "/usr/arm-none-eabi/include/c++/15.2.0",
+                    "/lib/gcc/arm-none-eabi/15.2.0/include",
+                    "/lib/gcc/arm-none-eabi/15.2.0/include-fixed"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            }
+        },
+        // Windows config
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceRoot}/**",
+
+                "C:/Program Files (x86)/GNU Tools for ARM Embedded Processors/10 2021.10/arm-none-eabi/include",
+                "C:/Program Files (x86)/GNU Tools for ARM Embedded Processors/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F411xE"
+            ],
+
+            "intelliSenseMode": "windows-gcc-arm64",
+
+            "compilerPath": "C:/Program Files (x86)/GNU Tools for ARM Embedded Processors/10 2021.10/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}

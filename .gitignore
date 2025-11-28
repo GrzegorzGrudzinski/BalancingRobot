@@ -1,0 +1,12 @@
+build/
+Debug/
+Release/
+
+.settings/
+.mxproject
+
+*.bin
+*.elf
+*.hex
+*.o
+

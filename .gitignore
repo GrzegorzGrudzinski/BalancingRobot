@@ -6,6 +6,8 @@ Release/
 .mxproject
 
 browse.vc*
+settings.json
+launch.json
 
 *.bin
 *.elf

@@ -1,19 +1,39 @@
 {
     "version": "2.0.0",
     "tasks": [
+        // Linux
         {
-            "label": "Build all",
+            "label": "Build all (Linux)",
             "group": "build",
             "type": "shell",
             "command": "make",
-            "args": ["-C", "code", "all", "-j4"]
+            "args": ["-C", "code", "all", "-j4"],
+            "linux": {}
         },
         {
-            "label": "Build clean",
+            "label": "Build clean (Linux)",
             "group": "build",
             "type": "shell",
             "command": "make",
-            "args": ["-C", "code", "clean"]
+            "args": ["-C", "code", "clean"],
+            "linux": {}
+        },
+        // Windows
+        {
+            "label": "Build all (Windows)",
+            "group": "build",
+            "type": "shell",
+            "command": "mingw32-make",
+            "args": ["-C", "code", "all", "-j4"],
+            "windows": {} 
+        },
+        {
+            "label": "Build clean (Windows)",
+            "group": "build",
+            "type": "shell",
+            "command": "mingw32-make",
+            "args": ["-C", "code", "clean"],
+            "windows": {} 
         }
     ]
 }

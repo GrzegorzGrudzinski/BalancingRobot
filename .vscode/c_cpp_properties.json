@@ -50,10 +50,15 @@
         {
             "name": "Windows",
             "includePath": [
-                "${workspaceRoot}/**",
-
-                "C:/Program Files (x86)/GNU Tools for ARM Embedded Processors/10 2021.10/arm-none-eabi/include",
-                "C:/Program Files (x86)/GNU Tools for ARM Embedded Processors/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include"
+                "${workspaceRoot}/code",
+                "${workspaceRoot}/code/Core/Inc",
+                "${workspaceRoot}/code/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceRoot}/code/Drivers/CMSIS/Include",
+                "${workspaceRoot}/code/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceRoot}/code/USB_HOST/App",
+                "${workspaceRoot}/code/USB_HOST/Target",
+                "C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/arm-none-eabi/include",
+                "C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/lib/gcc/arm-none-eabi/13.3.1/include"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
@@ -61,11 +66,26 @@
             ],
 
             "intelliSenseMode": "windows-gcc-arm64",
-
-            "compilerPath": "C:/Program Files (x86)/GNU Tools for ARM Embedded Processors/10 2021.10/bin/arm-none-eabi-gcc.exe",
             "cStandard": "c11",
-            "cppStandard": "c++20"
+            "cppStandard": "c++20",
+            "browse":
+            {
+                "path":
+                [
+                    "${workspaceRoot}/code",
+                    "${workspaceRoot}/code/Core/Inc",
+                    "${workspaceRoot}/code/Drivers/STM32F4xx_HAL_Driver/Inc",
+                    "${workspaceRoot}/code/Drivers/CMSIS/Include",
+                    "${workspaceRoot}/code/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                    "C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/arm-none-eabi/include",
+                    "C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/lib/gcc/arm-none-eabi/13.3.1/include",
+                    "C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            }
         }
+        
     ],
     "version": 4
 }

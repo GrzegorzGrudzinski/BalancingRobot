@@ -206,8 +206,15 @@ $(BUILD_DIR):
 #######################################
 # clean up
 #######################################
+ifeq ($(OS),Windows_NT)
+    RM = rmdir /s /q
+else
+    # default to unix-like
+    RM = rm -rf
+endif
+
 clean:
-	-rm -fR $(BUILD_DIR)
+	-$(RM) $(BUILD_DIR)
   
 #######################################
 # dependencies

@@ -1,3 +1,6 @@
 [submodule "BalancingRobot-Main-Controller"]
 	path = BalancingRobot-Main-Controller
 	url = https://github.com/GrzegorzGrudzinski/BalancingRobot-Main-Controller.git
+[submodule "BalancingRobot-Motor-Controller"]
+	path = BalancingRobot-Motor-Controller
+	url = https://github.com/GrzegorzGrudzinski/BalancingRobot-Motor-Controller.git

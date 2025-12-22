@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "ce7fcc28a6197672ebec3cf3",
+    "documentMicroversion": "a74dc969bb4eb70b0cca64ba",
+    "documentVersion": "2921dc719fd86004b2ee70fc",
+    "elementId": "633889785e5b47d6a0b09828",
+    "fullConfiguration": "default",
+    "id": "MLY2vzSUSevr8BYFS",
+    "isStandardContent": false,
+    "name": "robot_stablizujacy_silnik <1>",
+    "partId": "JFL",
+    "suppressed": false,
+    "type": "Part"
+}

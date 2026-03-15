@@ -1,0 +1,22 @@
+{
+    "BEmfConstant": 2.0064923763275146,
+    "compatibility": [
+        "FOC",
+        "sixStep"
+    ],
+    "description": "5010 360kV BLDC  max current 1.2APK",
+    "friction": 0.96,
+    "hardwareFamily": "MOTOR",
+    "id": "5010 360kV BLDC 1.2A",
+    "inertia": 2.23,
+    "label": "5010 360kV BLDC 1.2A",
+    "ls": 0.05,
+    "magneticStructure": {
+        "type": "SM-PMSM"
+    },
+    "maxRatedSpeed": 3996,
+    "nominalCurrent": 1.2000000476837158,
+    "nominalDCVoltage": 12.327178955078125,
+    "polePairs": 7,
+    "rs": 0.11846107244491577
+}

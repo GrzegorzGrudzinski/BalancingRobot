@@ -10,3 +10,6 @@
 [submodule "Simulation/BalancingRobot-simulatior"]
 	path = Simulation/BalancingRobot-simulatior
 	url = https://github.com/GrzegorzGrudzinski/BalancingRobot-simulatior.git
+[submodule "DataAnalyser/BalancingRobot-DataAnalyser"]
+	path = DataAnalyser/BalancingRobot-DataAnalyser
+	url = https://github.com/GrzegorzGrudzinski/BalancingRobot-DataAnalyser.git

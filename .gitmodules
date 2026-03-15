@@ -4,3 +4,9 @@
 [submodule "BalancingRobot-Motor-Controller"]
 	path = BalancingRobot-Motor-Controller
 	url = https://github.com/GrzegorzGrudzinski/BalancingRobot-Motor-Controller.git
+[submodule "Motor drivers/BalancingRobot-SimpleFOC-Motor-Controller"]
+	path = Motor drivers/BalancingRobot-SimpleFOC-Motor-Controller
+	url = https://github.com/GrzegorzGrudzinski/BalancingRobot-SimpleFOC-Motor-Controller.git
+[submodule "Simulation/BalancingRobot-simulatior"]
+	path = Simulation/BalancingRobot-simulatior
+	url = https://github.com/GrzegorzGrudzinski/BalancingRobot-simulatior.git

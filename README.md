@@ -40,7 +40,7 @@ Inter-board communication (STM32 to ESP32) is handled via **UART**.
 **The simulator can operate in several modes:**
 
 * **Standalone:** 100% simulated environment.
-* **Hardware-in-the-loop (Slave):** The main robot controller connects to the simulation – the physical MCU calculates the control parameters, while the simulator executes the physics and movement.
+* **(TODO) Hardware-in-the-loop (Slave):** The main robot controller connects to the simulation – the physical MCU calculates the control parameters, while the simulator executes the physics and movement.
 
 ## Project Status
 
